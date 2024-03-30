@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../javachip"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "dictionary beta",
+		"liveServer.settings.CustomBrowser": "chrome"
+	}
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400&display=swap" rel="stylesheet">
+    <!-- <style>
+        #hotbar {
+            font-family: "Arial", sans-serif;
+            background-color: aqua;
+            color: white;
+        }
+
+        .search-container {
+            font-family: "Times New Roman", serif;
+            text-align: center;
+        }
+
+        .button {
+            font-family: "Courier New", monospace;
+            color: black;
+        }
+    </style> -->
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <section id="hotbar" style="margin-left:auto;margin-right:auto;text-align:center">
+        <div class="search-container" id="wrapper" style="margin-left:auto;margin-right:auto;text-align:center">
+            <input type="text" id="Search" spellcheck="true" size="50" placeholder="Search any word" autocomplete="on">
+            <input type="image" id="press" src="images/search2.png">
+        </div>
+
+        <div class="button-container" id="buttonwrap" style="margin-left:auto;margin-right:auto;text-align:center">
+            <button id="dictionary" class="button" onclick="toggle(dictionary)">Dictionary</button>
+            <button id="thesaurus" class="button" onclick="toggle(thesaurus)">Thesaurus</button>
+        </div>
+    </section>
+
+    <h1 id="wordheading">Your pocket dictionary</h1>
+
+    <div class="display-container" id="display">
+        <p id="definition">At your fingertips</p>
+    </div>
+</body>
+
+</html>

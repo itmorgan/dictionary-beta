@@ -1,0 +1,87 @@
+body{
+    font-family:'Quicksand', sans-serif;
+}
+
+#hotbar{
+    background-color: goldenrod;
+    margin-top: 0px;
+}
+
+.search-container{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5%;
+}
+
+#wrapper{
+    border: solid black;
+    display: flex;
+    max-width: max-content;
+    border-radius: 50px;
+    background-color: white;
+}
+
+#Search{
+    display: flex;
+    position: relative;
+    border: none;
+    outline: none;
+    width: fit-content;
+    font-size: 15px;
+}
+
+#Search::-webkit-search-cancel-button{
+    -webkit-appearance: none;
+}
+
+.button-container{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5%;
+}
+
+.button{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 100px;
+    font-size: large;
+    font:bold;
+    border: none;
+    background: none;
+}
+
+button:disabled {
+   color: white;
+   border-color: white;
+}
+
+#buttonwrap{
+    border: none;
+    margin-top: 10px;
+    padding: 0%;
+    max-width: max-content;
+    display: flex;
+}
+
+#press{
+    display: flex;
+    position: relative;
+    border: none;
+    height: 30px;
+    width: 30px;
+}
+
+.part-of-speech{
+    font-style: italic;
+}
+
+.thesDisplay {
+    border: 1px solid gray;
+}
+
+
+
